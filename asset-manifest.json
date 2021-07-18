@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/eudcc-validator/static/css/main.91b3a7d1.chunk.css",
+    "main.js": "/eudcc-validator/static/js/main.a3fb4a50.chunk.js",
+    "main.js.map": "/eudcc-validator/static/js/main.a3fb4a50.chunk.js.map",
+    "runtime-main.js": "/eudcc-validator/static/js/runtime-main.a134a779.js",
+    "runtime-main.js.map": "/eudcc-validator/static/js/runtime-main.a134a779.js.map",
+    "static/css/2.150d169a.chunk.css": "/eudcc-validator/static/css/2.150d169a.chunk.css",
+    "static/js/2.3e5ab0d7.chunk.js": "/eudcc-validator/static/js/2.3e5ab0d7.chunk.js",
+    "static/js/2.3e5ab0d7.chunk.js.map": "/eudcc-validator/static/js/2.3e5ab0d7.chunk.js.map",
+    "index.html": "/eudcc-validator/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/eudcc-validator/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.91b3a7d1.chunk.css.map": "/eudcc-validator/static/css/main.91b3a7d1.chunk.css.map",
+    "static/js/2.3e5ab0d7.chunk.js.LICENSE.txt": "/eudcc-validator/static/js/2.3e5ab0d7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a134a779.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.3e5ab0d7.chunk.js",
+    "static/css/main.91b3a7d1.chunk.css",
+    "static/js/main.a3fb4a50.chunk.js"
+  ]
+}
