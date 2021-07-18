@@ -1,6 +1,6 @@
 {
-  "short_name": "EUDCC Validator",
-  "name": "EU Digital COVID Certificate Validator",
+  "short_name": "EUDCC Decoder",
+  "name": "EU Digital COVID Certificate Decoder",
   "icons": [
     {
       "src": "favicon.ico",
