@@ -1,38 +1,78 @@
-.App {
+#scan {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#intro h1 {
+  font-size: 150%;
+  margin-top: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#intro h2 {
+  font-size: 130%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#intro .faq {
+  max-width: 500px;
+  margin: 10px auto;
+  text-align: left;
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 20px;
+  background: #f8f8c0;
+}
+
+#intro .faq a, #intro .faq a:visited {
+  color: #24c;
+}
+
+#qrcode {
+  margin: 10px;
+}
+
+#qrcode canvas {
+  width: 100%;
+  height: auto;
+}
+
+#info h2 {
+  font-size: 130%;
+  border-bottom: 2px solid black;
+  margin: 10px;
+}
+
+#info table {
+  width: 100%;
+  margin: 10px;
+}
+
+#info table th {
+  text-align: right;
+  width: 50%;
+  padding-right: 10px;
+}
+
+#info table td {
+  text-align: left;
+  width: 50%;
+  padding-left: 10px;
+}
+
+#info table td span.Valid {
+  background: #0a0;
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 140%;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#info table td span.Invalid {
+  background: #c00;
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 140%;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  margin-bottom: 10px;
 }
