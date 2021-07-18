@@ -12,7 +12,7 @@ let publicKeys = null;
 const decodeEudcc = async (data) => {
   if (!publicKeys) {
     if (typeof window !== 'undefined') {
-      const response = await fetch('/public_keys.json');
+      const response = await fetch('public_keys.json');
       publicKeys = await response.json();
     }
     else {
