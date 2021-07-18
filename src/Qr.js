@@ -10,7 +10,7 @@ function Qr() {
   const eudccToTable = (data) => {
     const table = [
       ['Health Certificate', [
-        ['Signature', data.valid ? 'Valid' : 'Invalid'],
+        ['Signature', data.valid ? 'Validated' : 'Not Validated'],
         ['Issued by', data.issuer],
         ['Issue Date', DateTime.fromMillis(data.issuedAt * 1000).toISODate()],
         ['Expiration', DateTime.fromMillis(data.expiresAt * 1000).toISODate()],
@@ -131,7 +131,7 @@ function Qr() {
                   {section[1].map((row, j) => 
                     <>
                       {row[0] === 'Signature' ?
-                        <tr><th>Signature</th><td><span className={row[1]}>{row[1]}</span></td></tr>
+                        <tr><th>Signature</th><td><span className={row[1].replace(' ', '')}>{row[1]}</span></td></tr>
                       :
                         <tr key={`${i}-${j}`}><th>{row[0]}</th><td>{row[1]}</td></tr>
                       }

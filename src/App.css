@@ -57,7 +57,7 @@
   padding-left: 10px;
 }
 
-#info table td span.Valid {
+#info table td span.Validated {
   background: #0a0;
   padding: 5px 10px;
   font-weight: bold;
@@ -65,7 +65,7 @@
   color: white;
 }
 
-#info table td span.Invalid {
+#info table td span.NotValidated {
   background: #c00;
   padding: 5px 10px;
   font-weight: bold;
