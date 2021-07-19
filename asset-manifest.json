@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/eudcc-decoder/static/css/main.724174dd.chunk.css",
-    "main.js": "/eudcc-decoder/static/js/main.c4e6eaf6.chunk.js",
-    "main.js.map": "/eudcc-decoder/static/js/main.c4e6eaf6.chunk.js.map",
+    "main.css": "/eudcc-decoder/static/css/main.49241832.chunk.css",
+    "main.js": "/eudcc-decoder/static/js/main.a8b7504e.chunk.js",
+    "main.js.map": "/eudcc-decoder/static/js/main.a8b7504e.chunk.js.map",
     "runtime-main.js": "/eudcc-decoder/static/js/runtime-main.b6d7b73c.js",
     "runtime-main.js.map": "/eudcc-decoder/static/js/runtime-main.b6d7b73c.js.map",
     "static/css/2.150d169a.chunk.css": "/eudcc-decoder/static/css/2.150d169a.chunk.css",
@@ -10,14 +10,14 @@
     "static/js/2.d6ed97ab.chunk.js.map": "/eudcc-decoder/static/js/2.d6ed97ab.chunk.js.map",
     "index.html": "/eudcc-decoder/index.html",
     "static/css/2.150d169a.chunk.css.map": "/eudcc-decoder/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.724174dd.chunk.css.map": "/eudcc-decoder/static/css/main.724174dd.chunk.css.map",
+    "static/css/main.49241832.chunk.css.map": "/eudcc-decoder/static/css/main.49241832.chunk.css.map",
     "static/js/2.d6ed97ab.chunk.js.LICENSE.txt": "/eudcc-decoder/static/js/2.d6ed97ab.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b6d7b73c.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.d6ed97ab.chunk.js",
-    "static/css/main.724174dd.chunk.css",
-    "static/js/main.c4e6eaf6.chunk.js"
+    "static/css/main.49241832.chunk.css",
+    "static/js/main.a8b7504e.chunk.js"
   ]
 }
