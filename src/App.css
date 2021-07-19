@@ -73,6 +73,20 @@
   color: white;
 }
 
+#info table td span.OK {
+  background: #0a0;
+  padding: 3px 8px;
+  font-weight: bold;
+  color: white;
+}
+
+#info table td span.Expired {
+  background: #c00;
+  padding: 3px 8px;
+  font-weight: bold;
+  color: white;
+}
+
 button {
   margin-bottom: 10px;
 }

@@ -13,7 +13,7 @@ function Qr() {
         ['Signature', data.valid ? 'Validated' : 'Not Validated'],
         ['Issued by', data.issuer],
         ['Issue Date', DateTime.fromMillis(data.issuedAt * 1000).toISODate()],
-        ['Expiration', DateTime.fromMillis(data.expiresAt * 1000).toISODate()],
+        ['Expiration', DateTime.fromMillis(data.expiresAt * 1000).toISODate(), (data.expiresAt * 1000 < Date.now()) ? 'Expired' : 'OK'],
         ['Certificate Version', data.version],
       ]],
       ['Personal Information', [
@@ -133,7 +133,7 @@ function Qr() {
                       {row[0] === 'Signature' ?
                         <tr><th>Signature</th><td><span className={row[1].replace(' ', '')}>{row[1]}</span></td></tr>
                       :
-                        <tr key={`${i}-${j}`}><th>{row[0]}</th><td>{row[1]}</td></tr>
+                        <tr key={`${i}-${j}`}><th>{row[0]}</th><td>{row[1]} {row.length > 2 && <span className={row[2].replace(' ', '')}>{row[2]}</span>}</td></tr>
                       }
                     </>
                   )}
