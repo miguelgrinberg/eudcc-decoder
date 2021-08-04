@@ -98,7 +98,7 @@ const decodeEudcc = async (data) => {
       'ORG-100032020': 'Novavax CZ AS',
     };
     response.vaccination = {
-      disease: (cert.v[0].tg === '840539006') ? 'COVID-19' : cert.v.tg,
+      disease: (cert.v[0].tg === '840539006') ? 'COVID-19' : cert.v[0].tg,
       vaccineType: (cert.v[0].vp in vp) ? vp[cert.v[0].vp] : cert.v[0].vp,
       vaccineProduct: (cert.v[0].mp in mp) ? mp[cert.v[0].mp] : cert.v[0].mp,
       vaccineManufacturer: (cert.v[0].ma in ma) ? ma[cert.v[0].ma] : cert.v[0].ma,
